@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My First Blockchain dApp</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>My First Decentralized App</h1>
+  <p>This app connects to MetaMask and interacts with my Solidity smart contract.</p>
+
+  <button id="connectButton">Connect MetaMask</button>
+
+  <h3>Write Message</h3>
+  <input id="messageInput" type="text" placeholder="Enter message">
+  <button id="setMessageButton">Set Message</button>
+
+  <h3>Read Message</h3>
+  <button id="getMessageButton">Get Message</button>
+  <p id="displayMessage"></p>
+
+  <h3>Counter</h3>
+  <button id="incrementButton">Increment Counter</button>
+  <button id="getCounterButton">Get Counter</button>
+  <p id="displayCounter"></p>
+
+  <h3>Reset Contract</h3>
+  <button id="resetButton">Reset</button>
+
+  <script src="https://cdn.jsdelivr.net/npm/ethers@5.7.2/dist/ethers.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
